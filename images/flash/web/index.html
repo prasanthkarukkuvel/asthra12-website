@@ -1,0 +1,43 @@
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<script type="text/javascript" src="scripts/swfobject/swfobject.js"></script>
+<script type="text/javascript">
+      var flashvars = {};
+      flashvars.cssSource = "piecemaker.css";
+      flashvars.xmlSource = "piecemaker.xml";
+		
+      var params = {};
+      params.play = "true";
+      params.menu = "false";
+      params.scale = "showall";
+      params.wmode = "transparent";
+      params.allowfullscreen = "true";
+      params.allowscriptaccess = "always";
+      params.allownetworking = "all";
+	  
+      swfobject.embedSWF('piecemaker.swf', 'piecemaker', '1000', '365', '10', null, flashvars,params, null);
+    
+    </script>
+</head>
+<style>
+body {
+	width:100px;
+	height:400;
+	background:transparent;
+	overflow:hidden;
+	margin:0;
+	padding:0;
+}
+</style>
+<body>
+<center>
+  <div id="piecemaker">
+    <div>
+      <h4>Content on this page requires a newer version of Adobe Flash Player.</h4>
+      <p><a href="http://www.adobe.com/go/getflashplayer"><img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif"width="112"height="33" alt="Get Adobe Flash player" /></a></p>
+    </div>
+  </div>
+</center>
+</body>
+</html>

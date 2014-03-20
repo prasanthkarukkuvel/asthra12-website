@@ -1,0 +1,224 @@
+* {
+	margin:0;
+	padding:0;
+}
+body{-webkit-user-select:none;-moz-user-select:none;}
+/* Styling the sliders */
+#submit-layout{margin-left:150px;
+margin-right:auto;}
+.bstyle {
+	/* Setting default text color, background and a font stack */
+		
+	color:#eee;
+	padding:15px 15px 15px 15px;
+	width:750px;
+	height:420px;
+	
+	background:#202020;
+	font-family:Arial, Helvetica, sans-serif;
+}
+#avgc{display:none;}
+#avgrate {
+	text-shadow:#000 1px 1px;
+	font-weight:bold;
+	color:#999;
+}
+#avgrate-avgs {
+	text-shadow:#000 1px 1px;
+	font-weight:bold;
+	color:#999;
+}
+#avgrate-value {
+	text-shadow:#000 1px 1px;
+	font-weight:bold;
+	color:#FFF;
+	max-width:50px;
+	overflow:hidden;
+}
+#ratebar {
+	font-weight:bold;
+}
+#bluerate {
+	color:#0CF;
+	text-align:center;
+}
+#greenrate {
+	color:#0C0;
+	text-align:center;
+}
+#orangerate {
+	color:#F90;
+	text-align:center;
+}
+#bluerate, #greenrate, #orangerate {
+	text-shadow:#000 1px 1px;
+	text-align:center;
+	max-width:43px;
+	overflow:hidden;
+}
+.colorful-slider {
+	width:6px;
+	height:200px;
+	border:1px solid #242424;
+	position:relative;
+	float:left;
+	margin:20px 20px 0;
+	-moz-border-radius:12px;
+	-webkit-border-radius:12px;
+	border-radius:12px;
+}
+.design ,.interface ,.info {
+	width:20px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	height:20px;
+	}
+.design{background:url("img/cuboid_blue_mid.png") center;}
+.interface{background:url("img/cuboid_green_mid.png") center;}
+.info{background:url("img/cuboid_orange_mid.png") center;}	
+p{  color:#999;
+    font-size:14px;
+	margin-left:20px;
+	font-weight:bold;
+	padding: 5px 5px 5px 5px;
+	text-shadow:#000 1px 1px;
+	 
+	}
+/* Three sider colors: */
+
+.colorful-slider.orange {
+	background:url("img/slider_orange_bg.png") repeat-y;
+}
+.colorful-slider.green {
+	background:url("img/slider_green_bg.png") repeat-y;
+}
+.colorful-slider.blue {
+	background:url("img/slider_blue_bg.png") repeat-y;
+}
+.slider-handle {
+	position:absolute;
+	left:-11px;
+	width:28px;
+	height:12px;
+	background:url("img/slider_handle.png") no-repeat;
+	cursor:n-resize;
+	top:44%;
+}
+.cube-area {
+	width:400px;
+	height:200px;
+	background-color:#282828;
+	float:left;
+	margin:0 0 0 40px;
+	padding:20px;
+	position:relative;
+}
+.cuboid {
+	/* The three resizable bar divs */
+	width:72px;
+	position:absolute;
+	margin:20px;
+	padding:12px 0 9px;
+	float:left;
+	bottom:-45px;
+	z-index:10;
+}
+.cu-top {
+	/* The top section of the bars */
+	position:absolute;
+	width:100%;
+	top:0;
+	left:0;
+	height:12px;
+	background-repeat:no-repeat;
+}
+.cu-mid {
+	/* The mid section, it is freely resizable */
+	background-repeat:repeat-y;
+	height:100px;
+	width:72px;
+}
+.cu-bottom {
+	/* The bottom part */
+	position:absolute;
+	width:100%;
+	height:9px;
+	bottom:0;
+	left:0;
+	background-repeat:no-repeat;
+}
+/* Three color themes for the bars */
+
+.cuboid.blue {
+	left:100px;
+}
+.cuboid.blue .cu-top {
+	background-image:url("img/cuboid_blue_top.png");
+}
+.cuboid.blue .cu-mid {
+	background-image:url("img/cuboid_blue_mid.png");
+}
+.cuboid.blue .cu-bottom {
+	background-image:url("img/cuboid_blue_bottom.png");
+}
+.cuboid.green {
+	left:200px;
+}
+.cuboid.green .cu-top {
+	background-image:url("img/cuboid_green_top.png");
+}
+.cuboid.green .cu-mid {
+	background-image:url("img/cuboid_green_mid.png");
+}
+.cuboid.green .cu-bottom {
+	background-image:url("img/cuboid_green_bottom.png");
+}
+.cuboid.orange {
+	left:300px;
+}
+.cuboid.orange .cu-top {
+	background-image:url("img/cuboid_orange_top.png");
+}
+.cuboid.orange .cu-mid {
+	background-image:url("img/cuboid_orange_mid.png");
+}
+.cuboid.orange .cu-bottom {
+	background-image:url("img/cuboid_orange_bottom.png");
+}
+.perspective {
+	/* The perspective DIV */
+	background-color:#232323;
+	position:absolute;
+	z-index:1;
+	left:-8px;
+	bottom:240px;
+	height:55px;
+	width:100%;
+	/* Applying CSS3 transformations */
+	-moz-transform:skewX(60deg) translate(47px);
+	-webkit-transform:skewX(60deg) translate(47px);
+	transform:skewX(60deg) translate(47px);
+}
+/* The styles below are only necessary for the styling of the demo page: */
+#thanks-layout {
+	display:none;
+	z-index:500;
+	position:absolute;
+	margin-top:10px;
+	font-size:15px;
+	border:#CCC  inset medium;
+	font-weight:normal;
+	font-family:'Verdana', Geneva, sans-serif;
+	background: #252525;
+	background: -moz-linear-gradient(100% 100% 90deg, #040404,#252525);
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#252525), to(#040404));
+	background: -webkit-linear-gradient(#252525, #040404);
+	background: -o-linear-gradient(#252525, #040404);
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	padding: 10px 15px 15px 10px;
+	color:#FFF;
+}
+#t1,#t2{color:transparent; background:transparent; border:transparent; width:50px;}
+	
+#s1,#s2{width:75px;height:30px;}

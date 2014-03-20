@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<content>
+  <info>
+    <head>Register Now</head>
+    <des>Online Registration now Available</des>
+    <url>../event_reg/</url>
+  </info>
+  <info>
+    <head>Get a Galaxy</head>
+    <des>Mintue To Win It</des>
+    <url>../../events.php</url>
+  </info>
+  <info>
+    <head>Paper Presentation</head>
+    <des>PPT Topics are Published.</des>
+    <url>../../events.php</url>
+  </info>
+   <info>
+    <head>Paper Submission</head>
+    <des>Last Date Feb 7th</des>
+    <url>../../events.php</url>
+  </info>
+  <info>
+    <head>Events</head>
+    <des>Technical and Non-Technical Events</des>
+    <url>../../events.php</url>
+  </info>
+  <info>
+    <head>Site Maps</head>
+    <des>New Routes Added</des>
+    <url>../Maps/</url>
+  </info>
+  <info>
+    <head>FaceBook</head>
+    <des>New fans in facebook,get Connected</des>
+    <url>https://www.facebook.com/Asthra.IT</url>
+  </info>
+  <info>
+    <head>Schedule</head>
+    <des>Timings for Events will be published soon</des>
+    <url>../../schedule.php</url>
+  </info>
+  
+</content>

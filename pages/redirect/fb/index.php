@@ -1,0 +1,3 @@
+<?php 
+ header('Location:http://www.facebook.com/dialog/feed?app_id=249350978411370&link=http://www.itasthra.com&picture=http://www.itasthra.com/archive/logoweb.png& name=Asthra%202012&caption=National%20Level%20Technical%20Symposium&description=Asthra%202102%20is%20a%20technical%20Symposium%20conducted%20by%20the%20students of Information Technology.Get%20Connect%20with%20us &redirect_uri=http://www.itasthra.com');
+?>

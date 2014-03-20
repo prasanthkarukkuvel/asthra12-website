@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'AndikaBasicRegular';
+    src: url('AndBasR-webfont.eot');
+    src: url('AndBasR-webfont.eot?#iefix') format('embedded-opentype'),
+         url('AndBasR-webfont.woff') format('woff'),
+         url('AndBasR-webfont.ttf') format('truetype'),
+         url('AndBasR-webfont.svg#AndikaBasicRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+

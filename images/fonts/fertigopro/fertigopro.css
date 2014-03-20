@@ -1,0 +1,12 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+    font-family: 'FertigoPro-Regular';
+    src: url('fertigoproregular.eot');
+    src: url('fertigoproregular.eot?#iefix') format('embedded-opentype'),
+         url('fertigoproregular.woff') format('woff'),
+         url('fertigoproregular.ttf') format('truetype'),
+         url('fertigoproregular.svg#fertigoproregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
